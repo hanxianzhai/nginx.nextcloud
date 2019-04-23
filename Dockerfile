@@ -7,6 +7,7 @@ COPY nginx/pan.itop.vip.crt /etc/ssl/nginx/
 COPY nginx/pan.itop.vip.key /etc/ssl/nginx/
 
 EXPOSE 80
+EXPOSE 443
 
 STOPSIGNAL SIGTERM
 
